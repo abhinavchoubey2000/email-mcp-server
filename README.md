@@ -1,14 +1,14 @@
 # Instructions for using Email MCP Server
 
 ## About this server
-##### This MCP server allows you to send emails via Gmail by NodeMailer using SMPT server. This MCP server uses all three capabilities which a typical Model Context Protocol server provides which are:
-- Tools - Built one tool which helps for sending the emails by nodemailer.
-- Resources - Built one resources which is a excel file containing the names and emails of all the recipients to send emails. 
-- Prompts - Built two prompts, one static prompt for listing the available users/recipients and second dynamic prompt for generating email for a trip plan.
+##### This MCP server allows you to send emails via Gmail by NodeMailer using SMPT server. This MCP server uses all three capabilities which a typical **Model Context Protocol** server provides which are:
+- **Tools** - Built one tool which helps for sending the emails by nodemailer.
+- **Resources** - Built one resources which is a excel file containing the names and emails of all the recipients to send emails. 
+- **Prompts** - Built two prompts, one static prompt for listing the available users/recipients and second dynamic prompt for generating email for a trip plan.
 
 ## Prerequsites
-- Node Js - To run the MCP server
-- VS Code/Cursor AI - To test the MCP server
+- **Node Js** - To run the MCP server
+- **VS Code/Cursor** AI - To test the MCP server
 
 ## Installation
 
@@ -20,9 +20,9 @@
     ``` bash
     npm install
     ```
-- #### Install the MCP Server in your VS Code/Cursor AI
+- #### Install the **MCP Server** in your VS Code/Cursor AI
 
-- #### After installing go to your MCP configuration.json file and add the environment variables and cwd(current working directory) of your index.js:
+- #### After installing go to your MCP configuration.json file and add the **environment variables** and **cwd**(current working directory) of your index.js:
     ``` json
 
 	"servers": {
@@ -38,7 +38,7 @@
 		}
 	},
     ```
-- #### At last open your email-data.xlsx file and add names and emails of the recipient and save the file, for example:
+- #### At last open your **email-data.xlsx** file and add names and emails of the recipient and save the file, for example:
     | name | email
     |----------|----------|
     | abhinav    | abc@gmail.com   | 
@@ -46,7 +46,7 @@
     | harry    | pqr@gmail.com   | 
 
 ## Usage
-### Open your copilot in VS or respective agent in cursor AI and from chatbox(specially for VS Code) select your resource from MCP Server resources and type /mcp, and you will find your prompts there, select any one of them, it will automatically be added in your input box.
+### Open your copilot in VS or respective agent in cursor AI and from chatbox(specially for VS Code) select your **resource** from MCP Server resources and type **/mcp**, and you will find your **prompts** there, select any one of them, it will automatically be added in your input box.
 
 ### Some prompt examples:
 - _List all the available recipients names with their email ids in alphabetical order._
